@@ -1,0 +1,9 @@
+<ol class="post-list">
+  {{!-- start of loop for each post named as "post" --}}
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post }}
+  </li>
+  {{/each}}
+  {{!-- Above is end of area that is being looped over for each post --}}
+</ol>
