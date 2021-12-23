@@ -8,24 +8,25 @@
     margin: 0;
     font-family: sans-serif;
     color: #333;
+    background-color: tan;
   }
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: olive;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: olivedrab;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: olive;
     border: 0;
     padding: 1%;
-    color: white;
+    color: tan;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
@@ -33,7 +34,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: olivedrab;
   }
   
   .post-list {
@@ -44,12 +45,13 @@
   textarea, input {
     padding: .5%;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
+    background-color: olivedrab;
   }
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid olivedrab;
   }
   
   textarea {
@@ -75,7 +77,7 @@
   }
   
   header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,7 +99,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: olive;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -106,7 +108,7 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: grey;
   }
   
   .delete-post-btn {
@@ -152,7 +154,7 @@
   }
   
   .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: olive;
   }
   
   .comment .meta {
@@ -170,7 +172,7 @@
   }
   
   footer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid olive;
     display: flex;
     justify-content: center;
     padding: 1%;
