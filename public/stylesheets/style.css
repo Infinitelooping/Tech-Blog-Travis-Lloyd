@@ -123,6 +123,10 @@
     margin-bottom: 2%;
     line-height: 150%;
   }
+
+  .post-text {
+    display: block;
+  }
   
   .post .title span {
     font-style: italic;
